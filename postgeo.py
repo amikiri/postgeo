@@ -40,7 +40,7 @@ def main():
             pass
         else:
             print('Aborting . . .')
-            exit()
+            sys.exit()
 
     with open(outputfilename, 'wb') as outputfile:
         put = csv.writer(outputfile)
